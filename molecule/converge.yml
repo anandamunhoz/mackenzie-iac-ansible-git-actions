@@ -3,7 +3,7 @@
   gather_facts: false
   tasks:
     - ansible.builtin.debug:
-        msg: "Fake ansible.builtin.import_playbook :  /home/ubuntu/lab/molecule/security-group.yml"
+        msg: "Fake ansible.builtin.import_playbook :  /home/ubuntu/mackenzie-iac-ansible-git-actions/security-group.yml"
 
-- name: Include a play after another play
-  ansible.builtin.import_playbook:  /home/ubuntu/lab/molecule/security-group.yml
+#- name: Include a play after another play
+#  ansible.builtin.import_playbook:  /home/ubuntu/mackenzie-iac-ansible-git-actions/security-group.yml
