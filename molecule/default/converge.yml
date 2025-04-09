@@ -5,5 +5,5 @@
     - ansible.builtin.debug:
         msg: "Fake ansible.builtin.import_playbook :  /home/ubuntu/lab/security-group.yml"
 
-- name: Include a play after another play
-  ansible.builtin.import_playbook:  /home/ubuntu/lab/security-group.yml
+# - name: Include a play after another play
+# ansible.builtin.import_playbook:  /home/ubuntu/lab/security-group.yml
